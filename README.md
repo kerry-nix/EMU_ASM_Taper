@@ -12,15 +12,14 @@ Affiliations: <br>
 
 ================
 
-# Prerequisites
+### Prerequisites
 To use this repository, you must have access to Matlab. 
 
+### Data Availability
+Electronic Health Records data is available on Epilepsy.Science.
 
 ### scripts
-This folder contains the main scripts for 1) loading and formatting electronic health records data, and 2) running analysis.
-
-### reference_data
-This folder contains data that can be used for building targets or conducting unit tests.
+This folder contains the main scripts for 1) loading and formatting electronic health records data into MATLAB, and 2) running analysis in MATLAB.
 
 ### core_libraries
 This folder contains scripts required for running main analysis script.
