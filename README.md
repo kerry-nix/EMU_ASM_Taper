@@ -4,11 +4,11 @@ Kerry C. Nix*<sup>1,2</sup>, Nina J. Ghosn*<sup>2,3</sup>, Kevin Xie<sup>2,3</su
 *These authors contributed equally and share primary authorship
 
 Affiliations: <br>
-1 Department of Neuroscience, University of Pennsylvania, Perelman School of Medicine Philadelphia, PA, USA<br>
-2 Center for Neuroengineering & Therapeutics, University of Pennsylvania, Philadelphia, PA, USA<br>
-3 Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA<br>
-4 Department of Neurology, University of Pennsylvania, Perelman School of Medicine, Philadelphia, PA, USA<br>
-5 Department of Neurosurgery, University of Pennsylvania, Perelman School of Medicine, Philadelphia, PA, USA<br>
+<sup>1</sup>Department of Neuroscience, University of Pennsylvania, Perelman School of Medicine Philadelphia, PA, USA<br>
+<sup>2</sup>Center for Neuroengineering & Therapeutics, University of Pennsylvania, Philadelphia, PA, USA<br>
+<sup>3</sup>Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA<br>
+<sup>4</sup>Department of Neurology, University of Pennsylvania, Perelman School of Medicine, Philadelphia, PA, USA<br>
+<sup>5</sup>Department of Neurosurgery, University of Pennsylvania, Perelman School of Medicine, Philadelphia, PA, USA<br>
 
 ================
 
