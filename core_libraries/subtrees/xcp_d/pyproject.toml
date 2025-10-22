@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools==58.2.0", "wheel"]
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+src_paths = ["isort", "test"]
+known_local_folder = ["xcp_d"]
+
+[tool.black]
+line-length = 99
+target-version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.github
+    | \.hg
+    | \.pytest_cache
+    | _build
+    | build
+    | dist
+  )/
+  | versioneer.py
+  | xcp_d/_version.py
+)
+'''
+
+[tool.pytest.ini_options]
+addopts = '-m "not ds001419_nifti and not ds001419_cifti and not ds001419_cifti_t2wonly and not fmriprep_without_freesurfer and not nibabies"'
+markers = [
+    "ds001419_nifti: mark integration test for fMRIPrep derivatives with NIFTI settings",
+    "ds001419_cifti: mark integration test for fMRIPrep derivatives with CIFTI settings",
+    "ds001419_cifti_t2wonly: mark integration test for fMRIPrep derivatives with CIFTI settings and a simulated T2w file",
+    "fmriprep_without_freesurfer: mark integration test for fMRIPrep derivatives without FreeSurfer",
+    "nibabies: mark integration test for nibabies derivatives",
+]

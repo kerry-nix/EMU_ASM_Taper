@@ -1,0 +1,22 @@
+name: CNT_ENVIRON_EEG
+channels:
+- defaults
+dependencies:
+- numpy
+- scipy
+- pandas
+- ipython
+- matplotlib
+- seaborn
+- tabulate
+- numba<0.54
+- spyder
+- pip:
+  - pennprov
+  - epycom
+  - mne
+  - mne-bids
+  - ./pipeline_ieeg-0.0.1-py3-none-any.whl
+  - ./ieeg-1.6-py3-none-any.whl
+  - ./CNT_research_tools-0.0.1-py3-none-any.whl
+  - ./CNT_unit_tests-0.0.1-py3-none-any.whl

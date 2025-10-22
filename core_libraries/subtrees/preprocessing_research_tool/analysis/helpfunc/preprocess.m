@@ -1,0 +1,57 @@
+function [values,newlabels,fs,newInd,keep,sampleInfo] = preprocess(Info,selecElecs)
+% read in a meta info item correspond to a file
+% return the preprocessed data, labels, fs, new electrode Ind file, if keep
+% this file, and other sample info
+%% Add path to this codebase
+addpath(genpath('./../..'))
+assert(exist('IEEGToolbox','dir')==7,'CNTtools:dependencyUnavailable','IEEGToolbox not imported.')
+assert(exist('tools','dir')==7,'CNTtools:dependencyUnavailable','Tools not imported.')
+
+%% Read json login info
+login = read_json(which('config.json'));
+%% Get patient name
+file_name = Info.filename;
+ptname = Info.patient;
+
+%% Download data from ieeg.org
+times = [Info.ind_2pm,Info.ind_2pm+60];
+data = get_ieeg_data(file_name, login.usr, login.pwd, times,'selecElecs',selecElecs);
+bad = identify_bad_chs(data.values,data.fs);
+percent = sum(bad)/size(data.values,2);
+count = 0;
+incre = [3600,82800];
+while percent>=0.2 && count < 10 && times(2)<Info.duration
+    try
+        if mod(count,2)==0
+            times = times + incre(1);
+        else
+            times = times + incre(2);
+        end
+        % time for different 2pm
+        tmp = get_ieeg_data(file_name, login.usr, login.pwd, times,'selecElecs',selecElecs);
+        tmpBad = identify_bad_chs(tmp.values,tmp.fs);
+        percentBad = sum(tmpBad)/size(data.values,2);
+        disp(percentBad)
+        if percentBad < percent
+            data = tmp;
+            percent = percentBad;
+        end
+        count = count + 1;
+    catch ME
+        break
+    end
+end
+labels = data.chLabels; 
+values = data.values;
+fs = data.fs;
+nchs = size(values,2);
+sampleInfo.time = times;
+sampleInfo.bad = percent;
+%% Identify bad channels
+[bad,~] = identify_bad_chs(values,fs);
+
+%% Notch Filter
+values = notch_filter(values,fs);
+
+%% clean channs
+[values,newlabels,newInd,keep] = updateLabel(values,labels,bad,Info.elecInd);

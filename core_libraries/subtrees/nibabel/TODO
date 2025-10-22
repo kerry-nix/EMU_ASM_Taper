@@ -1,0 +1,17 @@
+.. -*- rest -*-
+.. vim:syntax=rst
+
+Stephan's TODO
+--------------
+* testing for endianness correctly (e.g. while writing)?
+
+Matthew's TODO
+--------------
+
+* Move file_map to {filename, fileobj, (filename, offset), (fileobj, offset)
+  with suitable change warning
+* consider deprecating data_dtype methods for images.
+* new data package model
+* output_space property for images
+* dirty attribute for images
+* consider adding io_implementation to images to do I/O

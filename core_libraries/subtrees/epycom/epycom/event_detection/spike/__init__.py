@@ -1,0 +1,1 @@
+from .barkmeier_detector import detect_spikes_barkmeier, BarkmeierDetector

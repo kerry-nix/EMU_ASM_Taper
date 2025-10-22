@@ -1,0 +1,32 @@
+name: CNT_ENVIRON_IMAGING
+channels:
+- https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/public
+- defaults
+dependencies:
+- python >=3.8
+- numpy
+- scipy
+- pandas
+- ipython
+- matplotlib
+- seaborn
+- tabulate
+- numba<0.54
+- pip
+- pip:
+  - ./bctpy-0.6.0-py3-none-any.whl
+  - ./CNT_unit_tests-0.0.1-py3-none-any.whl
+  - ./prequal_imaging-0.0.1-py3-none-any.whl
+  - ./enigma_imaging-0.0.1-py3-none-any.whl
+  - ./mrtrix3_imaging-0.0.1-py3-none-any.whl
+  - nibabel
+  - nipype
+  - niworkflows
+  - tensorflow
+  - antspyx
+  - antspynet
+  - fmriprep
+  - git+https://github.com/pennlinc/xcp_d.git
+  - ./mne_bids-0.0.1-py3-none-any.whl
+  - mne
+  - mne-bids

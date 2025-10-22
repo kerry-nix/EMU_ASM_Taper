@@ -1,0 +1,139 @@
+# CI / CD for the fsl/conda/installer project.
+
+# Unit tests are run in the test stage every
+# time commits are pushed to any branch.
+
+# The check-version stage is run on
+# non-master branches - it checks that the
+# fslinstaller version has been changed.
+
+# The release stage is run every time a new
+# tag is added. Release jobs assume that they
+# are running in an environment with a
+# directory $FSLINSTALLER_DEPLOY_DIRECTORY
+# into which the fslinstaller.py script can
+# be copied.
+
+# The fsl-ci stages are defined in the
+# fsl/conda/fsl-ci-rules repository - they are
+# used to build the fslinstaller conda package.
+
+include:
+ - project: fsl/conda/fsl-ci-rules
+   file:    .gitlab-ci.yml
+
+stages:
+  - fsl-ci-pre
+  - fsl-ci-build
+  - fsl-ci-test
+  - fsl-ci-deploy
+
+
+# Don't run pipeline on MRs
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: never
+    - when: always
+
+
+# These variables should be set as CI/CD variables in
+# the fsl/conda/installer project via the GitLab UI.
+variables:
+
+  # Directory in which new versions of the
+  # installer script should be copied into.
+  FSLINSTALLER_DEPLOY_DIRECTORY: "/exports/fsldownloads/fslconda/releases/"
+
+  # GitLab API token with enough privileges to push a
+  # branch to the fsl/conda/manifest repository, and open
+  # a merge request.  Used by the update_manifest.py
+  # script to update the FSL release manifest file when a
+  # new fslinstaller version is tagged.
+  FSL_CI_API_TOKEN: ""
+
+
+.test-template:
+  stage: fsl-ci-test
+  tags:
+    - fsl-ci
+    - docker
+  rules:
+    - if: '$CI_COMMIT_TAG == null'
+  script:
+    - bash ./.ci/unit_tests.sh
+
+test:py27:
+  extends: .test-template
+  image:    python:2.7
+
+test:py33:
+  extends: .test-template
+  image:    python:3.3
+
+test:py34:
+  extends: .test-template
+  image:    python:3.4
+
+test:py35:
+  extends: .test-template
+  image:    python:3.5
+
+test:py36:
+  extends: .test-template
+  image:    python:3.6
+
+test:py37:
+  extends: .test-template
+  image:    python:3.7
+
+test:py38:
+  extends: .test-template
+  image:    python:3.8
+
+test:py39:
+  extends: .test-template
+  image:    python:3.9
+
+test:py310:
+  extends: .test-template
+  image:    python:3.10
+
+test:py311:
+  extends: .test-template
+  image:    python:3.11
+
+check-version:
+  stage: fsl-ci-test
+  image: python:3.9
+  tags:
+    - fsl-ci
+    - docker
+  rules:
+    - if: '$CI_COMMIT_TAG == null && $CI_COMMIT_BRANCH != "master"'
+  script:
+    - bash ./.ci/check_version.sh
+
+
+release-new-version:
+  stage: fsl-ci-deploy
+  tags:
+    - fslconda-channel-host
+  rules:
+    - if: '$CI_COMMIT_TAG != null'
+      when: manual
+  script:
+    - bash ./.ci/new_release.sh
+
+
+update-fsl-manifest:
+  stage: fsl-ci-deploy
+  image: python:3.9
+  tags:
+    - fsl-ci
+    - docker
+  rules:
+    - if: '$CI_COMMIT_TAG != null'
+      when: manual
+  script:
+    - bash ./.ci/update_manifest.sh

@@ -1,0 +1,5 @@
+This is a placeholder.
+
+Ultimately, this folder will contain pointers to data stored on premisis. This could be a file with paths, folder structure, etc. Best practice is TBD.
+
+Currently, the ieeg API returns the data in memory. Separate functions for the raw data and the channel ids. A pikled pandas dataframe would be an ideal format to save the data.

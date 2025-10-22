@@ -1,0 +1,166 @@
+,ID,name,SOZ electrode,SOZ localization,"Clinician confidence in focal localization (even if localization is bifocal or multifocal; in other words, how confident not a broad onset)",Who obtained these localizations?,Notes,region,lateralization
+0,1,HUP100,,diffuse left,low,Erin,,diffuse,left
+1,2,HUP101,"LPF2, LPF3, ROF7, ROF8, APD1, APD2, APD3, APD4, PPD1, PPD2, PPD3, PPD4","multifocal, post-central gyrus, mesial parietal cortex; lateral left posterior frontal",medium,Erin,,multifocal,bilateral
+2,3,HUP102,"LF3, LF4, LF5, LF6, LDH1, LDH2, LDH3","multifocal, left frontal, left temporal, and right hemispheric spikes",low,Erin,,multifocal,left
+3,4,HUP105,"RDNET1, RDNET2, RDNET3, RDNET4",right temporal DNET,medium,Erin,,temporal neocortical,right
+4,5,HUP106,"LH2, LAT2",left anterior and inferior temporal,medium,Erin,,temporal neocortical,left
+5,6,HUP107,"RDH1, RDH2, RDH3, RDH4, RTO4, RTO5","right anterior temporal, possible 2nd focus in right posterior quadrant",medium,Erin,,temporal neocortical,right
+6,7,HUP108,"RDH2, LDH2",bilateral mesial temporal,medium,Erin,,mesial temporal,bilateral
+7,8,HUP110,"LIP1, LIP2, LG45, LG44, LG43, LG38, LG37, LG36, LG35, LG29, LG28, LG27, LG26, LG20, LG13, LG12, LG11, LG5, LG4, LG3, LAT2, LAT3, LAT4, LMT1, LMT2, LMT3, LMT4","broad, left TPO vs left parietal vs left temporal",low,Erin,,diffuse,left
+8,9,HUP111,"RG20, RG21, RG22, RG28, RG29, RG30, RG34, RG35, RG36, RG37, RG38, RG40, RG41, RG42, RG43, RG44, RO2, RO3, RO4, RO5, RO6, RPST1, RPST2, RPST3, RPST4, RAST1, RAST2, RAST3, RAST4, RDH1, RDH2, RDH3, RDH4, RP4, RP5, RP6, RMST1, RMST2",right parietal onset with quick spread to the right temporal region,medium,Erin,,other cortex,right
+9,10,HUP112,"RPF9, RPF7, RAF2, RAF4, RAF5",right frontal resection cavity,high,Erin,,other cortex,right
+10,11,HUP113,"LDH2, LDA2, LMST2",left mesial temporal,high,Erin,,mesial temporal,left
+11,12,HUP114,"RDA1, RDA2, RDA3, RDA4",right mesial temporal,high,Erin,,mesial temporal,right
+12,13,HUP115,"LG59, LG60",left temporal lesion,"medium, stimulation-induced seizure only",Erin,,temporal neocortical,left
+13,14,HUP116,"RA1, RA2, RA3, RA4",right amygdala,medium,Erin,,mesial temporal,right
+14,15,HUP117,"OFAL1, OFAL2, OFAL3, MTG1, PIFG1, PIFG2, PIFG3, INSP1, INSP2, INSP3",left mesial temporal,medium,Erin,,mesial temporal,left
+15,16,HUP118,"LDH1, LDH2",left hippocampus,high,Erin,,mesial temporal,left
+16,17,HUP119,"LAT1, LAT2, LMT1, LTM2, LDH1, LDH2, LDH3, LHD4, RDH1, RDH2, RDH3, RDH4, RDA1, RDA2, RDA3, RDA4",bitemporal (mesial temporal),medium,Erin,,mesial temporal,bilateral
+17,18,HUP120,"LAT1, LAT2, LMT1, LMT2, LDH1, LDH2, LDH3, LDH4, RAT3, RAT4, RDA1, RDA2, RDA3, RDA4",bitemporal onsets (some mesial temporal and some temporal neocortical),medium,Erin,,temporal multifocal,bilateral
+18,19,HUP121,"LG23, LG34, LG42, DP2",left parietal (S1),high,Erin,,other cortex,left
+19,20,HUP122,"RIP1, RIP2, RIP3, RIP4, RSP1, RSP2, RSP3, RSP4",right hippocampal,low,Erin,"Electrodes misconfigured! RIP and RSP are nominally parietal depths, but are apparently in the mesial temporal structures",mesial temporal,right
+20,21,HUP123,"RDA1, RDA2, RDA3, RDA4, DNET17","right mesial temporal, also subclinical seizures by right parietal lesion",medium,Erin,,mesial temporal,right
+21,22,HUP124,"RDH6, RDH7, RDH8, LXB3, LXB4, LXB5, LXB6",right hippocampus and lesion,medium,Erin,,mesial temporal,right
+22,23,HUP126,"LDA1, LDA2, LDA3, LDA4, LDAH1, LDAH2, LDAH3, LDAH4, LDMH1, LDMH2, LDMH3","left amygdala, left anterior and mid hippocampus",high,Erin,,mesial temporal,left
+23,24,HUP127,"RB1, LB1, LB2",bilateral mesial temporal,high,Erin,,mesial temporal,bilateral
+24,25,HUP128,"LB6, LB7, LC8, LY6, LY7, LC6, LA8, LY5",left lateral superior temporal lobe with rapid spread,medium,Erin,,temporal neocortical,left
+25,26,HUP129,RE1,"right posterior insula, but onset pattern delta, concerning for propagation from unsampled source",medium,Erin,,other cortex,right
+26,27,HUP130,LG1,left anterior cingulate,medium,Erin,,other cortex,left
+27,28,HUP131,"LDA4, LDA5, LSZ3, LSZ2",left frontal cortical dysplasia in primary motor cortex,high,Erin,,other cortex,left
+28,29,HUP132,"LA6, LA7, LA8, LD2, LD3, LD4, LN2, LN3, LN4","left lateral temporal, left superior temporal gyrus (some seizures without EEG correlate)",low,Erin,,temporal neocortical,left
+29,30,HUP133,"LA1, LA2, LA3, LB1, LB2, LB3",left anterior mesial temporal,high,Erin,,mesial temporal,left
+30,31,HUP134,"RE1, RE2, RE3, RE4, RE5, RE6, RI2, RI3, RI4, RI5, RI6, RI7",posterior margin of right frontal lobe,high,Erin,,other cortex,right
+31,32,HUP135,"RB1, RB2",right hippocampus,high,Erin,,mesial temporal,right
+32,33,HUP136,"LA1, LA2, LO1, LO2",concern for multifocal (left amygdala and left orbitofrontal) vs unsampled onset,low,Erin,,multifocal,left
+33,34,HUP137,"LA6, LA7, LA8, LA9, LA10, LA11, LC6, LC7, LC8, LC9, LC10, LC11, LE1, LE2, LE3, RA5, RA6, RA7, RA8, RA9, RA10, LG1, LG2, LG3","multifocal, left premotor/midcingulate, left side with unclear origin, right hippocampal",low,Erin,,multifocal,bilateral
+34,35,HUP138,"LA2, LA3, LA4",left hippocampus,high,Erin,,mesial temporal,left
+35,36,HUP139,"LF3, LF4, LF5, LF6, LF7, LG3, LG4, LG5","left parietal near prior resection cavity, one gyrus posterior to S1",high,Erin,,other cortex,left
+36,37,HUP140,"LA1, LA2, LB1, LB2, LC1, LC2",left mesial temporal,high,Erin,,mesial temporal,left
+37,38,HUP141,"RA1, RA2, RA3, RA4, RB1, RB2, RB3, RB4, RC1, RC2, RC3, RC4, LB1, LC1",mostly right mesial temporal and a few left mesial temporal (the latter thought to be due to implantation),medium,Erin,,mesial temporal,right
+38,39,HUP142,"LDA1, LDA2, LDA3, LDA4, LDA5, LDA6, LDA7, LDB1, LDB2, LDB3, LDB4, LDB5, LDB6, LDC1, LDC2",left mesial temporal,high,Erin,,mesial temporal,left
+39,40,HUP143,"LB1, LB2, LB3, LB4, LB5, LB6, LB7, LA1, LA2, LA3, LA4, LA5, RD3, RA1, RA2",multifocal,medium,Erin,,multifocal,bilateral
+40,41,HUP144,"RA1, RA2, RA8, RA9",right anterior temporal lobe and right mesial temporal lobe,high,Erin,,temporal multifocal,right
+41,42,HUP145,"RC5, RC6, RC7, RC8, RL4, RL5, RL6",lateral to the right anterior cingulate and right posterior cingulate,medium,Erin,,other cortex,right
+42,43,HUP146,"RF1, RF2, RF3, RF4",right insula (RF) with rapid spread to mesial temporal,medium,Erin,,other cortex,right
+43,44,HUP147,"LK1, LK2, LK3, LK4, LM1, LM2, LM3, LM4, LA1, LA2, LA3, LA4, LB1, LB2, LB3, LB4, LD1, LD2","left M1, left S1, mesial temporal, insula (broad)",low,Erin,,multifocal,left
+44,45,HUP148,"LD1, LD2, LD3, LD4, LD5, LD6, LB1, LB2, LB3, LC1, LC2, RB1, RB2, RB3, RB4","left temporal close to heterotopia, also right hippocampus",medium,Erin,,temporal multifocal,bilateral
+45,46,HUP149,RA1,"right amygdala, also left with unclear onset",low,Erin,,multifocal,bilateral
+46,47,HUP150,"RG2, RG3, RG4, RG5",right insula near cortical dysplasia,high,Erin,,other cortex,right
+47,48,HUP151,"RE2, RE3, RE4, RF1, RF2, RF3, RF4, RF5, RF6, LB1, LB2, LB3, RB1, RB2, RB3",right SMA/mesial frontal and separate seizures from bilateral hippocampi,medium,Jim/Erin,,frontal,right
+48,49,HUP152,,broad left,low,Erin,,diffuse,left
+49,50,HUP153,"RA3, RA5, RA7, RD1, RD2, RD3, RD4, RD5, LC1, LC2, LC3, LJ1, LJ2, LJ3, LJ4, LJ5, LA1, LA2, LA3",independent bitemporal,medium,Erin,,temporal,bilateral
+50,51,HUP154,"LM1, LM2, LM3, RM1, RM2, RM3, LE7, LE8, LE9, RK1, LN1",broad,low,Erin,,diffuse,bilateral
+51,52,HUP155,"LF5, LF6, LF7, LF8, LF9, RG7, RG8, RG9, RG10, RG11",bilateral insula,medium,Erin,,other cortex,bilateral
+52,53,HUP156,"LB5, LB6, LB7, RC6",independent bitemporal,medium,Erin,,temporal,bilateral
+53,54,HUP157,"LA1, LA2, LB1, LB2, LC1, LC2, RJ1, LB7, LB8, LB9, LC7, LC8, LC9, LJ1",left temporal,medium,Jim/Erin,,temporal,left
+54,55,HUP158,"RL1, RL2, RL3, RL4",right posterior insula,medium,Erin,,other cortex,right
+55,56,HUP159,"LD2, LD3, LC2, LC3, LC4, LB3, LB4, LJ10, LJ11, LJ12, LE2, LE3, LE4","Heschl's, superior temporal gyrus",medium,Erin,revision!,temporal neocortical,left
+56,57,HUP160,"RA4, RA5, RA6, RB1, RB2, RB3, RB4, RC1, RC2, RF6, RF7, RF8, RG1, RG2, RG3, RI1, RI2, RI3, RL8, RL9, RL10, RJ2","mostly right temporal, some parietal and frontal",medium,Erin,,multifocal,right
+57,58,HUP161,"RC1, RC2, RC3, RC4",right superior frontal gyrus,high,Erin,,other cortex,right
+58,59,HUP162,"LA1, LA2, LA3, LA4, LB1, LB2, LB3, LB4",left mesial temporal,high,Erin,,mesial temporal,left
+59,60,HUP163,"LB1, LB2, LB3, LA1, LA2, LA3, LA4, LA5",left mesial temporal,high,Erin,,mesial temporal,left
+60,61,HUP164,"LA1, LA2, LA3, LB1, LB2, LB3, LC1, LC2, LC3, LC4",left mesial temporal,high,Erin,,mesial temporal,left
+61,62,HUP165,"LA3, LA4, RA3, RA4, RB3, RB4",bilateral mesial temporal (stim only seizure),low,Erin,,mesial temporal,bilateral
+62,63,HUP166,"LJ1, LJ2, LJ3, LJ4, LJ5, LA8, LA9, LA10, LA11",left orbitofrontal with rapid spread to left temporal,medium,Erin,,other cortex,left
+63,64,HUP167,"LI5, LI6, LI7, LI8, LI9, LG5, LG6, LG7, LG8, LG9, RF3, RF4, RF5, RF6, RF7, RF8, RF9",left dorsolateral frontal lobe and right frontopolar,medium,Erin,,diffuse,bilateral
+64,65,HUP168,"RB2, RB3, RB4, RB5, RB9, RB10, RC4, RC5, RC6, RC7","right temporal and ALSO BROAD left, unsampled",low,Erin,,multifocal,bilateral
+65,66,HUP169,"LA1, LA2, LA3, LA4, LA5, RB3, RB4, RB5, RC1, RA1, RA2, RA3, RA4, RA5, RA6, RA7, LB3",independent bitemporal,medium,Erin,,temporal,bilateral
+66,67,HUP170,"RD3, RD4, RD5, RD6, RD7",right short insula gyrus,high,Erin,,other cortex,right
+67,68,HUP171,"LD9,LF5,LG9,LH5,RD9, RD10, RD11, RI3,RI5, LG2, LG3, LG4, LG5, LG6, LG7, LG8, LH3",left frontal,medium,Erin,,other cortex,left
+68,69,HUP172,"LE10, LE11, LH1, LH2, LH3, LH4, LH5, LH6, LH7, LH8",left frontal,medium,Jim/Erin,,other cortex,left
+69,70,HUP173,"RA1, RA2, RA3, RA4, RB1, RB2, RB3, RB4",right amygdala and hippocampus,high,Jim/Erin,,mesial temporal,right
+70,71,HUP174,LB7,left temporal,high,Erin,,temporal,left
+71,72,HUP175,"LH6, LH7, LE7, RH5, RH6, RK4, RK5, LF3, LF4, LI3, LI4, LD2, LD3, RD2, RD3, RG3, RG4",broad,low,Erin,,diffuse,diffuse
+72,73,HUP176,,no seizures,low,Erin,,,
+73,74,HUP177,"RB1, RB2, RB3, RC1, RC2, RC3, RH1, RH2, RH3, RH4, RH5, RH6, RH7",right temporal,high,Erin,,temporal,right
+74,75,HUP178,"RJ1, RJ2, RJ3, RJ4, RJ5, RB3",right temporal,medium,Erin,,temporal,right
+75,76,HUP179,"LC1, LC2, LC3, LC4, LC5, LC6, LC7, LD1, LD2, LD3, LD4, LD5, LE1, LE2, LE3, LE4, LE5, LE6, LE7, LG1, LG2, LG3, LG4, LG5, LH5, LH6, LH7, LH8, LH9, LH10, LH11, LJ5, LJ6, LJ7, LJ8, LJ9, LJ10, LJ11, LL3, LL4, LL5, LL6, LL7",left frontal,medium,Jim/Erin,,other cortex,left
+76,77,HUP180,"LC11, LF1, LF2",left orbitofrontal,medium,Erin,,other cortex,left
+77,78,HUP181,"LA1, LA2, LA3",left amygdala,high,Jim/Erin,,mesial temporal,left
+78,79,HUP182,"RB1, RB2, RB3, RB4, RB5, LB9, LB10, LB11",bilateral,medium,Jim/Erin,,,bilateral
+79,80,HUP183,,none,low,Erin,,,
+80,81,HUP184,"LA1, LA2, LA3, LA4, LB1, LB2, LB3, LB4, LA11, LA12",left temporal,medium,Jim/Erin,,temporal,left
+81,82,HUP185,"LA1, LA2, LA3, LA4, LB1, LB2, LB3, LB4",left mesial temporal,high,Erin,,mesial temporal,left
+82,83,HUP186,"LE1, LE2, LF1, LF2, LF3, LB2, LA1, LA2, LC1, LC2, LD1, LD2, LD3",left temporal,medium,Jim/Erin,,temporal,left
+83,84,HUP187,"RA1, RA2, RA3, RA4, RB1, RB2, RB3, RB4, RB5",right mesial temporal,high,Jim/Erin,,mesial temporal,right
+84,85,HUP188,"LL5, LI5, LG9, LF5, LH7, LD7, LK5",left frontal resection cavity,high,Erin,,other cortex,left
+85,86,HUP189,"LA8, LA9, LA10, LA11, LA12, LB10, LB11, LB12, LC8, LC9, LC10, LC11, LC12, LG55, LG56, LG46, LG47, LG48, LG38, LG39, LG40, LA6, LA7, LA8",lateral temporal surface (thought to be atypical due to grid placement),medium,Erin,,temporal neocortical,left
+86,87,HUP190,"LA1, LA2, LA3, LB1, LB2, LB3, LB4, LB5, LC1, LC2, LC3, LC4",left mesial temporal,high,Erin,,mesial temporal,left
+87,88,HUP191,"LB1, RA1, RA2, RA3, RA4, RA5, RB1, RB2, RB3, RB4, RB5, RC1, RC2, RC3, RC4",bilateral mesial temporal,medium,Erin,,mesial temporal,bilateral
+88,89,HUP192,"LB1, LB2, LB3, LB4, LB5, LA1, LA2, LA3, LA4, LA5, RB1, RB2, RB3, RB4, RB5, RA1, RA2, RA3, RA4, RA5",bilateral mesial temporal,medium,Erin,,mesial temporal,bilateral
+89,90,HUP193,"LA1, LA2, LA3, LA4, LB1, LB2, LB3, LD10, LD11, LD12, LE4, LE5, LH8, LH9, LH10, LC5, LC6, LK3, LK4, LK5",lateral superior temporal gyrus and others,low,Erin,,temporal neocortical,left
+90,91,HUP194,"RG1, RG2, RG3",right superior frontal gyrus,high,Erin,revision!,other cortex,right
+91,92,HUP195,"RG3, RG4, RG5, RG6, RG7, RG8, RJ6, RJ7, LO1, LO2, LO3, LO4, LO5",bilateral superior temporal gyrus,medium,Jim/Erin,,temporal neocortical,bilateral
+92,93,HUP196,"RA4, RA5, RF3, RF4","SMA, right hand knob",high,Jim/Erin,,other cortex,right
+93,94,HUP197,"LC1, LC2, LC3, LL3, LL4, LD1, LD2, LD3, LG5, LG6","mesial temporal, heschl's gyrus",medium,Jim/Erin,,temporal,left
+94,95,HUP198,,no seizures,low,Erin,,,
+95,96,HUP199,"LA1, LA2, LA3, RB3, RB4, RB5",bilateral mesial temporal,medium,Erin,,mesial temporal,bilateral
+96,97,HUP201,"LB1, LC1, LL1, LK2, LJ2, LM1, LI1",left temporal lobe and left orbitofrontal and left insula,medium,Jim/Erin,,multifocal,left
+97,98,HUP202,LB2,left hippocampus,high,Erin,,mesial temporal,left
+98,99,HUP203,"LA1, LA2, LA3, LA4, LB5, LB6, RB9, RB10, RB11, RE8, RF8, RG8, RB1, RB2, RC1, RC3",bilateral,low,Erin,,,bilateral
+99,100,HUP204,"LB2, LC2, LA1, LA1",left mesial temporal,high,Jim/Erin,,mesial temporal,left
+100,101,HUP205,"LA1, LA2, LB2, LB3, RA1, RA2, RA3, RA4, RA5, RB1, RB2",bilateral mesial temporal,medium,Erin,,mesial temporal,bilateral
+101,102,HUP206,"RG5, RG6, RB1, RB2, RB3","right pars triangularis, right anterior hippocampus",medium,Jim/Erin,,multifocal,right
+102,103,HUP207,"LA5, LA6",mid planum polare,high,Erin,,temporal neocortical,left
+103,104,HUP208,"LA1, LB1, LC1, LJ1, LK5, LK6, LK7",mesial temporal +/- basal temporal +/- early posterior insular,medium,Jim/Erin,,temporal,left
+104,105,HUP209,"LC5, LC6, LB5, LB6",lateral temporal lobe,low,Erin,,temporal neocortical,left
+105,106,HUP210,"LA1, LA2, LA9, LA10, LB1, LB2, LB3, LB4, LB9, LB10, LB11, LD1, LD2, LD3, LD4, LE10, LE11, LE12, LF1, LF2, LG1, LG2, LG3, LK1, LK2, LK3, LK4, LK5, LK6, LK7, LK8, LK9, LM7, LM8, LM9, LN1, LN2, LN3, LN4, LN5, LN6, LN7, LN8, LN9, LN10, LN11, LN12, LE1, LE2",broad left network,low,Jim/Erin,,diffuse,left
+106,107,HUP211,"LC1, LC2, LI1, LI2, LI3, LI4, RA1, RA2, RA3, RA4, RB1, RB2, RB3, RB4, RC1, RC3, RC3, RH5, RH6, RH7, RH8, RH9, LB1, LB2, LC1, LC2, LA3, LA4",bilateral temporal,medium,Erin,,temporal,bilateral
+107,108,HUP212,,no seizures,low,Erin,,,
+108,109,HUP213,"LA1, LA2, LA3, LA4, LA5, LH3, LH4, LH5, LH6, LJ1, LJ2, LJ3, LJ4","left SMA, mesial temporal",low,Erin,,multifocal,left
+109,110,HUP214,"LB1, LB2, RB1, RB2",bilateral mesial temporal,medium,Erin,,mesial temporal,bilateral
+110,111,HUP215,"LC2, LC3, LC4, LC5, LC6",temporal dysplasia,high,Jim/Erin,,temporal neocortical,left
+111,112,HUP216,"LC1, LC2, LB1, LB2",left posterior insula,high,Jim/Erin,,other cortex,left
+112,113,HUP217,"RA1, RA2, RB1, RB2, RC1, RC2",right mesial temporal lobe,high,Jim/Erin,,mesial temporal,right
+113,114,HUP099,"DHAA1, DHAA2, DHAA3, DHAA4, DHT1, DHT2, DHT3, DHT4",right heterotopia depths,medium,Jim/Erin,,other cortex,right
+114,115,HUP219,"RB2, RB3, RC2, RC3",right hippocampus,high,Erin,,mesial temporal,right
+115,116,HUP221,"RA7, RB1, RB2, RB3, RC2, RA2",right hippocampus,medium,Erin,,mesial temporal,right
+116,117,HUP223,"LB3, LC3",left hippocampus,high,Erin,,mesial temporal,left
+117,118,HUP224,"LB1, LB2, LB3, LB4, LB5, LC1, LC2, LC3, LC4, RB2, RB3, RC2",bilateral or right mesial temporal,low,Erin,,mesial temporal,bilateral
+118,119,HUP225,"RB1, RB2, RB3, RB4, RT4, RT5, RT6",right anterior superior lateral temporal pole,medium,Erin,,temporal neocortical,right
+119,120,HUP218,"RA1, RA2, RB2, RB3, RB4, RD1, RD2, RD4",right mesial temporal,,Erin,,mesial temporal,right
+120,121,HUP064,"LG23, LG31",left frontal onset,high,Erin,,other cortex,left
+121,122,HUP065,"RST1, RST2, RST3, RG17, RAT1, RAT2, RAT3, RAT4, RG3, RG4, RG5, RG6, RG9, RG10, RG11, RG12, RG18, RG19, RG20, RG25, RG26, RG27",right temporal onset,high,Erin,,temporal,right
+122,123,HUP068,"RG4, RG11, RG12, RG13, RG14, RG20, RG21, RG22, RG23, RG24, RG25, RG26, RG27, RG28, RG29, RG30, RST2, RST3, RST4",right temporal onset,high,Erin,,temporal,right
+123,124,HUP070,"LG20, LG21, LG22, LG23 ",left perirolandic,high,Erin,,other cortex,left
+124,125,HUP071,"LG20, LG21",left perirolandic,medium,Erin,,other cortex,left
+125,126,HUP072,"LPP3, LPP4, LPP5",left parietal,medium,Erin,,other cortex,left
+126,127,HUP073,"ROF1, ROF2, ROF3",right frontal,medium,Erin,,other cortex,right
+127,128,HUP074,"TLD3, TLD4, TLD5, TLD6, GRID38, GRID39, GRID40",left posterior superior/middle temporal gyri ,medium,Erin,,temporal,left
+128,129,HUP075,"AMY1, AMY2, AMY3, AMY4, HIP1, HIP2, HIP3, HIP4, AST1, AST2, AST3, AST4",left temporal,medium,Erin,,temporal,left
+129,130,HUP078,"AST1, AST2",left anterior temporal,high,Erin,,temporal,left
+130,131,HUP079,"LG20, LG21, LG22, LG23, LG35, LG42, LG18, LG19, LG24, LG25, LG26, LG27, LG28, OPI1, OPI2, OPI3, OPI4, OPI5, LT3, LT4, LT5, LT6, PST5, PST6, LG1, LG2, LG3, LG4, LG5, LG9, LG10, LG11, LG12, LG13, LG14, LG15",left posterior parietal,medium,Erin,,other cortex,left
+131,132,HUP080,"AST1, AST2, LA2, LA3, LA4",left temporal,medium,Erin,,temporal,left
+132,133,HUP081,"LAT1, LAT2, LAT3, LMT1, LMT2, RHI1, RHI2, RHI3, RHI4, RPH1, RPH2, RPH3",left temporal with very early right spread,low,Erin,,multifocal,bilateral
+133,134,HUP082,"RH1, RH2, RH3, RH5, RH6, RG50, RG51, RG62, RG63, MST1, MST2, MST3, RH1, RH2, RH3, RH4",right temporal,medium,Erin,,temporal,right
+134,135,HUP083,"LG13, LG14, LG15, LG22, LG23, LG24, LG5, LG6, LG7",left frontal,medium,Erin,,other cortex,left
+135,136,HUP084,"LH1, LH2, LH3, LH4, LA1, LA2, LA3, LMST1, LMST2, LMST3",left temporal,medium,Erin,,temporal,left
+136,137,HUP085,,no seizures,,,,,
+137,138,HUP086,"Grid17, Grid18, Grid19, Grid20,Grid25, Grid26, Grid27, Grid28, Grid33, Grid34, Grid35, Grid49, Grid50, Grid51, Grid52, Grid53, Grid54, Grid55, Grid58, Grid59, Grid60, Grid61, Grid62, Grid63, Grid64, PF3, PF4, AST1, AST2, AST3, AST4, MST1, MST2, MST3, MST4, DA1, DA2, DA3, DA4",left temporal,low,Erin,,temporal,left
+138,139,HUP087,"LG29, LG36, LG38",left frontal,medium,Erin,,other cortex,left
+139,140,HUP088,"LMST2, LMST1",left mesial temporal,medium,Erin,,mesial temporal,left
+140,141,HUP089,"AD1, AD2, AD3",right amygdala,high,Erin,,mesial temporal,right
+141,142,HUP093,"DA1, DA2, DA3, DA4, DH1, DH2, DH3, DH4",left amygdala and hippocampus,medium,Erin,,mesial temporal,left
+142,143,HUP094,"RDA1, RDA2, RDA3, RDA4",right temporal,medium,Erin,,temporal,right
+143,144,HUP096,"RPT2, RPT3, RMT2, RMT3, LAT2, LAT3, LAT4, LPT2, LPT3, RAT1, RAT2, RAT3, RPT1, RPT4, RMT1, RMT4",bitemporal,medium,Erin,,temporal,bilateral
+144,145,HUP097,"AT2, AT3, DH1, DH2, PT2, PT3, LG46, LG48, LG62, LG63, LG5, LG6",multifocal left,low,Erin,,multifocal,left
+145,146,HUP098,"LG5, LG13, LG21, LG22, LG38, LG52, LG59, LG60, LG61, LG37, LG38, MST3, MST4, DA1",left temporal,medium,Erin,,temporal,left
+146,147,MP0001,,,,,,,
+147,148,MP0002,,,,,,,
+148,149,MP0003,,,,,,,
+149,150,MP0004,,,,,,,
+150,151,MP0006,,,,,,,
+151,152,MP0007,,,,,,,
+152,153,MP0009,,,,,,,
+153,154,MP0010,,,,,,,
+154,155,MP0011,,,,,,,
+155,156,MP0012,,,,,,,
+156,157,MP0013,,,,,,,
+157,158,MP0014,,,,,,,
+158,159,MP0015,,,,,,,
+159,160,MP0018,,,,,,,
+160,161,MP0019,,,,,,,
+161,162,MP0020,,,,,,,
+162,163,MP0021,,,,,,,
+163,164,MP0022,,,,,,,
+164,165,MP0025,,,,,,,
