@@ -4,7 +4,7 @@
 Kerry C. Nix*<sup>1,2</sup>, Nina J. Ghosn*<sup>2,3</sup>, Kevin Xie<sup>2,3</sup>, William K. S. Ojemann<sup>2,3</sup>, Colin A. Ellis<sup>4</sup>, Genna Waldman<sup>4</sup>, Eli Cornblath<sup>4</sup>, Erin C. Conrad<sup>2,3,4</sup>, Brian Litt<sup>2,3,4,5</sup><br>
 *These authors contributed equally and share primary authorship
 
-**Affiliations:**
+**Affiliations:**<br>
 <sup>1</sup>Department of Neuroscience, University of Pennsylvania, Perelman School of Medicine Philadelphia, PA, USA  
 <sup>2</sup>Center for Neuroengineering & Therapeutics, University of Pennsylvania, Philadelphia, PA, USA  
 <sup>3</sup>Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA  
