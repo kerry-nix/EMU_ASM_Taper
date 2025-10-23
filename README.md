@@ -1,10 +1,10 @@
 **Optimizing Anti-Seizure Medication Taper in the EMU**  
   
 **Authors:**  
-Kerry C. Nix*<sup>1,2</sup>, Nina J. Ghosn*<sup>2,3</sup>, Kevin Xie<sup>2,3</sup>, William K. S. Ojemann<sup>2,3</sup>, Colin A. Ellis<sup>4</sup>, Genna Waldman<sup>4</sup>, Eli Cornblath<sup>4</sup>, Erin C. Conrad<sup>2,3,4</sup>, Brian Litt<sup>2,3,4,5</sup>
+Kerry C. Nix*<sup>1,2</sup>, Nina J. Ghosn*<sup>2,3</sup>, Kevin Xie<sup>2,3</sup>, William K. S. Ojemann<sup>2,3</sup>, Colin A. Ellis<sup>4</sup>, Genna Waldman<sup>4</sup>, Eli Cornblath<sup>4</sup>, Erin C. Conrad<sup>2,3,4</sup>, Brian Litt<sup>2,3,4,5</sup><br>
 *These authors contributed equally and share primary authorship
 
-Affiliations:  
+**Affiliations:**
 <sup>1</sup>Department of Neuroscience, University of Pennsylvania, Perelman School of Medicine Philadelphia, PA, USA  
 <sup>2</sup>Center for Neuroengineering & Therapeutics, University of Pennsylvania, Philadelphia, PA, USA  
 <sup>3</sup>Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA  
@@ -17,7 +17,7 @@ MATLAB code written by Nina J. Ghosn, PhD and Kerry C. Nix.
 
 ================
 
-Pharmacokinetic models of ASM load:
+**Pharmacokinetic models of ASM load:**
 
 Ghosn NJ, Xie K, Pattnaik AR, et al. A pharmacokinetic model of antiseizure medication load to guide care in the epilepsy monitoring unit. Epilepsia. 2023;64(5):1236-1247. Doi:10.1111/epi.17558
 
@@ -38,17 +38,17 @@ Electronic Health Records data is available on Epilepsy.Science.
 
 [](https://github.com/kerry-nix/EMU_ASM_Taper#scripts)
 
-This folder contains the main scripts: 
+      This folder contains the main scripts: 
 
-**build_data_structs.m** Loading and build data structures from electronic health records data, in MATLAB.  
+      **build_data_structs.m** Loading and build data structures from electronic health records data, in MATLAB.  
   
-**analysis_figures.m** Run analysis and generate figures, in MATLAB.
+      **analysis_figures.m** Run analysis and generate figures, in MATLAB.
 
 ### core_libraries
 
 [](https://github.com/kerry-nix/EMU_ASM_Taper#core_libraries)
 
-This folder contains MATLAB scripts required for running files in "scripts".
+      This folder contains MATLAB scripts required for running files in "scripts".
 
 # Contact Us
 
