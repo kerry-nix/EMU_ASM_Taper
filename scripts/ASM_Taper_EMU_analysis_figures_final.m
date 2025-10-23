@@ -1,4 +1,5 @@
 %[text] ## **ASM Taper in the EMU, analysis + figure generation**
+%[text] Script written by Nina Ghosn, PhD and Kerry Nix, University of Pennsylvania
 %[text] 1. **Before running this script, run ASM\_Taper\_EMU\_data\_loading.m.**
 %[text] 2. **Generates Figures 2, 3, 4, 5; eFigures 1, 2, 3, 4, 5, 6**
 %[text] 3. **Data description:** \
