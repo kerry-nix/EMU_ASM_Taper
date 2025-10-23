@@ -1,3 +1,5 @@
+% Script written by Nina Ghosn, PhD and Kerry Nix, University of Pennsylvania
+
 addpath('/Volumes/USERS/knix/ASM_Taper_Sz/aed_dose_modeling/figures_code')
 addpath('/Volumes/USERS/knix/ASM_Taper_Sz/DATA');
 addpath('/Volumes/USERS/knix/ASM_Taper_Sz/aed_dose_modeling/')
