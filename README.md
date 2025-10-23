@@ -38,9 +38,10 @@ Electronic Health Records data is available on Epilepsy.Science.
 
 [](https://github.com/kerry-nix/EMU_ASM_Taper#scripts)
 
-This folder contains the main scripts: **build_data_structs.m** Loading and build data structures from electronic health records data, in MATLAB.  
-  
+This folder contains the main scripts: 
 
+**build_data_structs.m** Loading and build data structures from electronic health records data, in MATLAB.  
+  
 **analysis_figures.m** Run analysis and generate figures, in MATLAB.
 
 ### core_libraries
