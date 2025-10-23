@@ -13,12 +13,13 @@ Affiliations:
 
 ================
 
-MATLAB Code by Nina J. Ghosn, PhD and Kerry C. Nix.
+MATLAB code written by Nina J. Ghosn, PhD and Kerry C. Nix.
+
+================
 
 Pharmacokinetic models of ASM load:
 
 Ghosn NJ, Xie K, Pattnaik AR, et al. A pharmacokinetic model of antiseizure medication load to guide care in the epilepsy monitoring unit. Epilepsia. 2023;64(5):1236-1247. Doi:10.1111/epi.17558
-
 
 ================
 ### Prerequisites
