@@ -1,15 +1,15 @@
 **Optimizing Anti-Seizure Medication Taper in the EMU**  
   
 **Authors:**  
-Kerry C. Nix*1,2, Nina J. Ghosn*2,3, Kevin Xie2,3, William K. S. Ojemann2,3, Colin A. Ellis4, Genna Waldman4, Eli Cornblath4, Erin C. Conrad2,3,4, Brian Litt2,3,4,5  
+Kerry C. Nix*<sup>1,2</sup>, Nina J. Ghosn*<sup>2,3</sup>, Kevin Xie<sup>2,3</sup>, William K. S. Ojemann<sup>2,3</sup>, Colin A. Ellis<sup>4</sup>, Genna Waldman<sup>4</sup>, Eli Cornblath<sup>4</sup>, Erin C. Conrad<sup>2,3,4</sup>, Brian Litt<sup>2,3,4,5</sup>
 *These authors contributed equally and share primary authorship
 
 Affiliations:  
-1Department of Neuroscience, University of Pennsylvania, Perelman School of Medicine Philadelphia, PA, USA  
-2Center for Neuroengineering & Therapeutics, University of Pennsylvania, Philadelphia, PA, USA  
-3Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA  
-4Department of Neurology, University of Pennsylvania, Perelman School of Medicine, Philadelphia, PA, USA  
-5Department of Neurosurgery, University of Pennsylvania, Perelman School of Medicine, Philadelphia, PA, USA  
+<sup>1</sup>Department of Neuroscience, University of Pennsylvania, Perelman School of Medicine Philadelphia, PA, USA  
+<sup>2</sup>Center for Neuroengineering & Therapeutics, University of Pennsylvania, Philadelphia, PA, USA  
+<sup>3</sup>Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA  
+<sup>4</sup>Department of Neurology, University of Pennsylvania, Perelman School of Medicine, Philadelphia, PA, USA  
+<sup>5</sup>Department of Neurosurgery, University of Pennsylvania, Perelman School of Medicine, Philadelphia, PA, USA  
 
 ================
 
