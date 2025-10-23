@@ -19,7 +19,12 @@ To use this repository, you must have access to Matlab.
 Electronic Health Records data is available on Epilepsy.Science.
 
 ### scripts
-This folder contains the main scripts for 1) loading and formatting electronic health records data into MATLAB, and 2) running analysis in MATLAB.
+This folder contains the main scripts:
+**build_data_structs.m**
+Loading and build data structures from electronic health records data, in MATLAB. <br><br>
+
+**analysis_figures.m**
+Run analysis and generate figures, in MATLAB.
 
 ### core_libraries
 This folder contains MATLAB scripts required for running files in "scripts".
